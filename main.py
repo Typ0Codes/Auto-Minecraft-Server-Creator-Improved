@@ -1,27 +1,42 @@
 import os, requests
+import time
+os.system("title Auto MC Server Creator")
 def get_version(version):
-    if version == "1.18":
+    if version == "1.8.8":
+        download(8)
+    if version == "1.12.2":
+        download(122)
+    if version == "1.18.2":
         download(18)
-    elif version == "1.19":
+    if version == "1.19.0":
         download(19)
-    else:
-        print("Only type 1.19 or 1.18")
-        exit()
 
 def download(wanted_version):
+    if wanted_version == 8:
+        os.system("cls")
+        print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
+        response = requests.get(f"https://download1648.mediafire.com/hp2tafakq9ug/ihorhd4u34g3oqh/server.jar")
+        open("server.jar", "wb").write(response.content)
+        time.sleep(3)
+    if wanted_version == 122:
+        os.system("cls")
+        print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
+        response = requests.get(f"https://ucarecdn.com/005ee9b9-d9a7-4e98-8233-3ed0fc378a70/")
+        open("server.jar", "wb").write(response.content)
+        time.sleep(3)
     if wanted_version == 18:
         os.system("cls")
-        print("go to https://papermc.io/downloads#Paper-1.18")
-        print("and get the newest version id and paste below")
-        id = input(">>>")
-        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/386/downloads/paper-1.18.2-{id}.jar")
+        print("Open the link https://papermc.io/downloads#Paper-1.12.2")
+        print("and get the newest version id and paste it below")
+        id = input("> ")
+        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/{id}/downloads/paper-1.18.2-{id}.jar")
         open("server.jar", "wb").write(response.content)
     elif wanted_version == 19:
         os.system("cls")
-        print("go to https://papermc.io/downloads#Paper-1.19")
-        print("and get the newest version id and paste below")
-        id = input(">>>")
-        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.19/builds/36/downloads/paper-1.19-{id}.jar")
+        print("Open the link https://papermc.io/downloads#Paper-1.19")
+        print("and get the newest version id and paste it below")
+        id = input("> ")
+        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.19/builds/{id}/downloads/paper-1.19-{id}.jar")
         open("server.jar", "wb").write(response.content)
         
 def setup_server(ram):
@@ -30,8 +45,7 @@ def setup_server(ram):
     print("Seting up everything for you...")
     start_server(ram)
     os.system("cls")
-    print("Agreeing eula for you")
-    os.remove("eula.txt")
+    print("Agreeing the MC eula for you...")
     with open('eula.txt', 'w') as f:
         f.write('eula=true')
         f.close()
@@ -42,31 +56,35 @@ def start_server(ram):
     os.system(f"java -Xmx{ram}G -Xms{ram}G -jar server.jar nogui PAUSE")
 
 def write_start_file(ram):
-    with open('START_SERVER.bat', 'w') as f:
+    with open('start_server.bat', 'w') as f:
         f.write(f'java -Xmx{ram}G -Xms{ram}G -jar server.jar nogui PAUSE')
         f.close()
 
 def main():
     os.system("cls")
-    print("\nIn what version should your minecraft server be?")
+    print("\nWhat version should your minecraft server be? Make sure you type the version exactly as it's shown!")
     print("""
 ##############
-#    1.18    #
-#    1.19    #  
+#   1.8.8    #
+#   1.12.2   #
+#   1.18.2   #
+#   1.19.0   #  
 ##############  
 """)
-    version = input(">>>")
+    version = input("> ")
     get_version(version)
     os.system("cls")
-    print("How much ram should the server have? (4 is recommended)")
+    print("How much ram should the server have? (Selecting half of your PC ram is mostly recommended, example: if you have 8GB then select 4GB and if you have 4GB select 2GB)")
     print("""
-#############
-#  1 GB RAM #
-#  2 GB RAM #
-#  4 GB RAM #
-#  8 GB RAM #
-#############
+##############
+#    1 GB    #
+#    2 GB    #
+#    4 GB    #
+#    8 GB    #
+#    16 GB   #
+#    32 GB   #
+##############
 """)
-    ram = input(">>>")
+    ram = input("> ")
     setup_server(ram)
 main()
