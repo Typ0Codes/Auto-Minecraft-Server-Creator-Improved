@@ -1,5 +1,5 @@
 # Auto-minecraft-server-creator
-Create your own minecraft paper server in one click (supports 1.8.8, 1.12.2, 1.18.2 and 1.19)
+Create your own minecraft paper server in one click (supports 1.8.8, 1.12.2, 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2 and 1.19)
 
 Join my Discord if you need help
 https://discord.gg/QbWGVZvRWc
