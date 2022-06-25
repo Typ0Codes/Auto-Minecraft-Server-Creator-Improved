@@ -6,6 +6,14 @@ def get_version(version):
         download(8)
     if version == "1.12.2":
         download(122)
+    if version == "1.14.4":
+        download(144)
+    if version == "1.15.2":
+        download(152)
+    if version == "1.16.5":
+        download(165)
+    if version == "1.17.1":
+        download(171)
     if version == "1.18.2":
         download(18)
     if version == "1.19.0":
@@ -17,11 +25,33 @@ def download(wanted_version):
         print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
         response = requests.get(f"https://download1648.mediafire.com/hp2tafakq9ug/ihorhd4u34g3oqh/server.jar")
         open("server.jar", "wb").write(response.content)
-        time.sleep(3)
     if wanted_version == 122:
         os.system("cls")
         print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
         response = requests.get(f"https://ucarecdn.com/005ee9b9-d9a7-4e98-8233-3ed0fc378a70/")
+        open("server.jar", "wb").write(response.content)
+    if wanted_version == 144:
+        os.system("cls")
+        print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
+        response = requests.get(f"https://download1528.mediafire.com/6ih4d24tbrug/odui4x8idph13pf/server.jar")
+        open("server.jar", "wb").write(response.content)
+        time.sleep(3)
+    if wanted_version == 152:
+        os.system("cls")
+        print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
+        response = requests.get(f"https://ucarecdn.com/848e9e35-da67-425d-b7a6-bf9ca304c94f/")
+        open("server.jar", "wb").write(response.content)
+        time.sleep(3)
+    if wanted_version == 165:
+        os.system("cls")
+        print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
+        response = requests.get(f"https://download1522.mediafire.com/0mtdnbhe8sog/p9gplkwquy98ykn/server.jar")
+        open("server.jar", "wb").write(response.content)
+        time.sleep(3)
+    if wanted_version == 171:
+        os.system("cls")
+        print("This step could take a bit depending on your internet connection so please wait while we download the file for you!")
+        response = requests.get(f"https://download1493.mediafire.com/kw2lflfedwtg/n8su7j67zuaaeer/server.jar")
         open("server.jar", "wb").write(response.content)
         time.sleep(3)
     if wanted_version == 18:
@@ -67,6 +97,10 @@ def main():
 ##############
 #   1.8.8    #
 #   1.12.2   #
+#   1.14.4   #
+#   1.15.2   #
+#   1.16.5   #
+#   1.17.1   #
 #   1.18.2   #
 #   1.19.0   #  
 ##############  
