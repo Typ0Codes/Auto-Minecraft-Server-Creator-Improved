@@ -1,10 +1,11 @@
-# Auto-minecraft-server-creator
+# Auto Minecraft Server Creator
 Create your own minecraft paper server in one click (supports 1.8.8, 1.12.2, 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2 and 1.19)
 
-Join my Discord if you need help
-https://discord.gg/QbWGVZvRWc
+# Discord
+sfx2me's discord: https://discord.gg/QbWGVZvRWc
+for any questions (not code problems just questions) contact me directly thru discord: falcon#2004
 
-# Showcase
+# sfx2me's version showcase
 https://vm.tiktok.com/ZMN6MQ2Au/?k=1
 
 # How to use
