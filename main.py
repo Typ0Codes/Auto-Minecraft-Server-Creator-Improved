@@ -26,12 +26,15 @@ def download(wanted_version):
         print("\nAlso warning! Use this version at your own risk!")
         print("\nThis version is known to contain an RCE vulnerability! Read more about this exploit here https://purpurmc.org/docs/Log4j")
         print("\nI will now install an plugin which fixes this vulnerability, but it still recommended to not use this version!")
-        print("\nTo enable this plugin on your server you have to drag it into the plugins folder")
-        print("(before dragging it into the plugins folder make sure your server is fully started and running!) and after putting it into the plugins folder you have to restart your server!")
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
-        response = requests.get(f"https://www.spigotmc.org/resources/log4jexploit-fix.98243/download?version=432636")
-        open("Log4JExploitFix-1.3.3.jar", "wb").write(response.content)
+        os.system("mkdir plugins")
+        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
+        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+            f.write(r.content)
+        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        with open('plugins\ProtocolLib.jar', 'wb') as f:
+            f.write(r.content)
         response = requests.get(f"https://download1648.mediafire.com/hp2tafakq9ug/ihorhd4u34g3oqh/server.jar")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 122:
@@ -40,12 +43,15 @@ def download(wanted_version):
         print("\nAlso warning! Use this version at your own risk!")
         print("\nThis version is known to contain an RCE vulnerability! Read more about this exploit here https://purpurmc.org/docs/Log4j")
         print("\nI will now install an plugin which fixes this vulnerability, but it still recommended to not use this version!")
-        print("\nTo enable this plugin on your server you have to drag it into the plugins folder")
-        print("(before dragging it into the plugins folder make sure your server is fully started and running!) and after putting it into the plugins folder you have to restart your server!")
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
-        response = requests.get(f"https://www.spigotmc.org/resources/log4jexploit-fix.98243/download?version=432636")
-        open("Log4JExploitFix-1.3.3.jar", "wb").write(response.content)
+        os.system("mkdir plugins")
+        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
+        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+            f.write(r.content)
+        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        with open('plugins\ProtocolLib.jar', 'wb') as f:
+            f.write(r.content)
         response = requests.get(f"https://ucarecdn.com/005ee9b9-d9a7-4e98-8233-3ed0fc378a70/")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 144:
@@ -54,12 +60,15 @@ def download(wanted_version):
         print("\nAlso warning! Use this version at your own risk!")
         print("\nThis version is known to contain an RCE vulnerability! Read more about this exploit here https://purpurmc.org/docs/Log4j")
         print("\nI will now install an plugin which fixes this vulnerability, but it still recommended to not use this version!")
-        print("\nTo enable this plugin on your server you have to drag it into the plugins folder")
-        print("(before dragging it into the plugins folder make sure your server is fully started and running!) and after putting it into the plugins folder you have to restart your server!")
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
-        response = requests.get(f"https://www.spigotmc.org/resources/log4jexploit-fix.98243/download?version=432636")
-        open("Log4JExploitFix-1.3.3.jar", "wb").write(response.content)
+        os.system("mkdir plugins")
+        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
+        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+            f.write(r.content)
+        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        with open('plugins\ProtocolLib.jar', 'wb') as f:
+            f.write(r.content)
         response = requests.get(f"https://download1528.mediafire.com/6ih4d24tbrug/odui4x8idph13pf/server.jar")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 152:
@@ -68,12 +77,15 @@ def download(wanted_version):
         print("\nAlso warning! Use this version at your own risk!")
         print("\nThis version is known to contain an RCE vulnerability! Read more about this exploit here https://purpurmc.org/docs/Log4j")
         print("\nI will now install an plugin which fixes this vulnerability, but it still recommended to not use this version!")
-        print("\nTo enable this plugin on your server you have to drag it into the plugins folder")
-        print("(before dragging it into the plugins folder make sure your server is fully started and running!) and after putting it into the plugins folder you have to restart your server!")
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
-        response = requests.get(f"https://www.spigotmc.org/resources/log4jexploit-fix.98243/download?version=432636")
-        open("Log4JExploitFix-1.3.3.jar", "wb").write(response.content)
+        os.system("mkdir plugins")
+        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
+        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+            f.write(r.content)
+        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        with open('plugins\ProtocolLib.jar', 'wb') as f:
+            f.write(r.content)
         response = requests.get(f"https://ucarecdn.com/848e9e35-da67-425d-b7a6-bf9ca304c94f/")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 165:
@@ -82,12 +94,15 @@ def download(wanted_version):
         print("\nAlso warning! Use this version at your own risk!")
         print("\nThis version is known to contain an RCE vulnerability! Read more about this exploit here https://purpurmc.org/docs/Log4j")
         print("\nI will now install an plugin which fixes this vulnerability, but it still recommended to not use this version!")
-        print("\nTo enable this plugin on your server you have to drag it into the plugins folder")
-        print("(before dragging it into the plugins folder make sure your server is fully started and running!) and after putting it into the plugins folder you have to restart your server!")
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
-        response = requests.get(f"https://www.spigotmc.org/resources/log4jexploit-fix.98243/download?version=432636")
-        open("Log4JExploitFix-1.3.3.jar", "wb").write(response.content)
+        os.system("mkdir plugins")
+        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
+        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+            f.write(r.content)
+        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        with open('plugins\ProtocolLib.jar', 'wb') as f:
+            f.write(r.content)
         response = requests.get(f"https://api.purpurmc.org/v2/purpur/1.16.5/latest/download")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 171:
@@ -96,12 +111,15 @@ def download(wanted_version):
         print("\nAlso warning! Use this version at your own risk!")
         print("\nThis version is known to contain an RCE vulnerability! Read more about this exploit here https://purpurmc.org/docs/Log4j/")
         print("\nI will now install an plugin which fixes this vulnerability, but it still recommended to not use this version!")
-        print("\nTo enable this plugin on your server you have to drag it into the plugins folder")
-        print("(before dragging it into the plugins folder make sure your server is fully started and running!) and after putting it into the plugins folder you have to restart your server!")
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
-        response = requests.get(f"https://www.spigotmc.org/resources/log4jexploit-fix.98243/download?version=432636")
-        open("Log4JExploitFix-1.3.3.jar", "wb").write(response.content)
+        os.system("mkdir plugins")
+        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
+        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+            f.write(r.content)
+        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        with open('plugins\ProtocolLib.jar', 'wb') as f:
+            f.write(r.content)
         response = requests.get(f"https://api.purpurmc.org/v2/purpur/1.17.1/latest/download")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 182:
