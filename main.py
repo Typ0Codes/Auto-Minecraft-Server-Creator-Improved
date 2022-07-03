@@ -29,13 +29,13 @@ def download(wanted_version):
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
         os.system("mkdir plugins")
-        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
-        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+        r = requests.get(f"https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.5/Log4jFix-1.0.5-all.jar")  
+        with open('plugins\Log4jFix-1.0.5-all.jar', 'wb') as f:
             f.write(r.content)
-        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        r = requests.get(f"https://github.com/dmulloy2/ProtocolLib/releases/latest/download/ProtocolLib.jar")  
         with open('plugins\ProtocolLib.jar', 'wb') as f:
             f.write(r.content)
-        response = requests.get(f"https://download1648.mediafire.com/hp2tafakq9ug/ihorhd4u34g3oqh/server.jar")
+        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.8.8/builds/445/downloads/paper-1.8.8-445.jar")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 122:
         os.system("cls")
@@ -46,13 +46,13 @@ def download(wanted_version):
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
         os.system("mkdir plugins")
-        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
-        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+        r = requests.get(f"https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.5/Log4jFix-1.0.5-all.jar")  
+        with open('plugins\Log4jFix-1.0.5-all.jar', 'wb') as f:
             f.write(r.content)
-        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        r = requests.get(f"https://github.com/dmulloy2/ProtocolLib/releases/latest/download/ProtocolLib.jar")  
         with open('plugins\ProtocolLib.jar', 'wb') as f:
             f.write(r.content)
-        response = requests.get(f"https://ucarecdn.com/005ee9b9-d9a7-4e98-8233-3ed0fc378a70/")
+        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.12.2/builds/1620/downloads/paper-1.12.2-1620.jar")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 144:
         os.system("cls")
@@ -63,13 +63,13 @@ def download(wanted_version):
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
         os.system("mkdir plugins")
-        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
-        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+        r = requests.get(f"https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.5/Log4jFix-1.0.5-all.jar")  
+        with open('plugins\Log4jFix-1.0.5-all.jar', 'wb') as f:
             f.write(r.content)
-        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        r = requests.get(f"https://github.com/dmulloy2/ProtocolLib/releases/latest/download/ProtocolLib.jar")  
         with open('plugins\ProtocolLib.jar', 'wb') as f:
             f.write(r.content)
-        response = requests.get(f"https://download1528.mediafire.com/6ih4d24tbrug/odui4x8idph13pf/server.jar")
+        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.14.4/builds/245/downloads/paper-1.14.4-245.jar")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 152:
         os.system("cls")
@@ -80,13 +80,13 @@ def download(wanted_version):
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
         os.system("mkdir plugins")
-        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
-        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+        r = requests.get(f"https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.5/Log4jFix-1.0.5-all.jar")  
+        with open('plugins\Log4jFix-1.0.5-all.jar', 'wb') as f:
             f.write(r.content)
-        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        r = requests.get(f"https://github.com/dmulloy2/ProtocolLib/releases/latest/download/ProtocolLib.jar")  
         with open('plugins\ProtocolLib.jar', 'wb') as f:
             f.write(r.content)
-        response = requests.get(f"https://ucarecdn.com/848e9e35-da67-425d-b7a6-bf9ca304c94f/")
+        response = requests.get(f"https://api.papermc.io/v2/projects/paper/versions/1.15.2/builds/393/downloads/paper-1.15.2-393.jar")
         open("server.jar", "wb").write(response.content)
     if wanted_version == 165:
         os.system("cls")
@@ -97,10 +97,10 @@ def download(wanted_version):
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
         os.system("mkdir plugins")
-        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
-        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+        r = requests.get(f"https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.5/Log4jFix-1.0.5-all.jar")  
+        with open('plugins\Log4jFix-1.0.5-all.jar', 'wb') as f:
             f.write(r.content)
-        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        r = requests.get(f"https://github.com/dmulloy2/ProtocolLib/releases/latest/download/ProtocolLib.jar")  
         with open('plugins\ProtocolLib.jar', 'wb') as f:
             f.write(r.content)
         response = requests.get(f"https://api.purpurmc.org/v2/purpur/1.16.5/latest/download")
@@ -114,10 +114,10 @@ def download(wanted_version):
         print("\nBy pressing any key you are acknowledging and agreeing that I am in no fault if anything happens to your server!")
         os.system("pause")
         os.system("mkdir plugins")
-        r = requests.get(f"https://download1648.mediafire.com/y99rzte1a6vg/k0sfajxhyqfqull/Log4JExploitFix-1.3.3.jar")  
-        with open('plugins\Log4JExploitFix-1.3.3.jar', 'wb') as f:
+        r = requests.get(f"https://github.com/FrankHeijden/Log4jFix/releases/download/v1.0.5/Log4jFix-1.0.5-all.jar")  
+        with open('plugins\Log4jFix-1.0.5-all.jar', 'wb') as f:
             f.write(r.content)
-        r = requests.get(f"https://download1593.mediafire.com/qmq9cjhdt7bg/pjabyge8egr4qos/ProtocolLib.jar")  
+        r = requests.get(f"https://github.com/dmulloy2/ProtocolLib/releases/latest/download/ProtocolLib.jar")  
         with open('plugins\ProtocolLib.jar', 'wb') as f:
             f.write(r.content)
         response = requests.get(f"https://api.purpurmc.org/v2/purpur/1.17.1/latest/download")
