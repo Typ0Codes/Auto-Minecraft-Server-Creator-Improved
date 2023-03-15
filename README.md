@@ -1,3 +1,6 @@
+# NO LONGER MAINTAINED #
+This project is no longer maintaned. I probably won't comeback to this project ever.
+
 # Auto Minecraft Server Creator
 Create your own minecraft paper server in one click (supports 1.8.8, 1.12.2, 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2 and 1.19)
 
